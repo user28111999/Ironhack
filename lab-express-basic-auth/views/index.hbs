@@ -1,0 +1,10 @@
+{{#if userInSession}}
+    <form action="/auth/logout" method="POST">
+        <input type="submit" value="Log out">
+    </form>
+{{else}}
+    <a href="/auth/register">Register</a>
+    <a href="/auth/login">Login</a>
+{{/if}}
+<a href="/main">Main</a>
+<a href="/private">Private</a>

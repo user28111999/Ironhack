@@ -1,0 +1,15 @@
+{{#if userInSession}}
+    <h1>Hello {{userInSession.username}}</h1>
+    <img 
+        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimagesmtv-a.akamaihd.net%2Furi%2Fmgid%3Afile%3Ahttp%3Ashared%3Amtv.com%2Fnews%2Fwp-content%2Fuploads%2F2015%2F06%2Fstoned-ghostfase-1435246512.gif%3Fquality%3D.8%26height%3D260%26width%3D500&f=1&nofb=1" 
+        alt="I'm stoned out of my mind"
+    />
+    <a href="/">Go back to the homepage</a>
+{{else}}
+    <h1>This page is private!</h1>
+    <img 
+        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimagesmtv-a.akamaihd.net%2Furi%2Fmgid%3Afile%3Ahttp%3Ashared%3Amtv.com%2Fnews%2Fwp-content%2Fuploads%2F2015%2F06%2Fstoned-ghostfase-1435246512.gif%3Fquality%3D.8%26height%3D260%26width%3D500&f=1&nofb=1" 
+        alt="I'm stoned out of my mind"
+    />
+    <a href="/">Go back</a>
+{{/if}}

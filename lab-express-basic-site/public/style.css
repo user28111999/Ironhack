@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: url("https://fg-a.com/animated-bgs/16_animated_background.gif");
+  color: white;
+  font-family: "Comic Sans MS", monospace;
+}
+
+#credits {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+img + div {
+  margin: 0 24px;
+}
+
+.header img {
+  height: 10vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+.nav a {
+  margin: 12px 16px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.container-image {
+  display: flex;
+  justify-content: center;
+}
+
+.container-image img {
+  height: 40vh;
+}

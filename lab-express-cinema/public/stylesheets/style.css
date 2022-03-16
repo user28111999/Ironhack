@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.left {
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages7.livreshebdo.fr%2Fsites%2Fdefault%2Ffiles%2Fblog%2Ffb708e1c103e5af708e1c103e33808v_.jpg&f=1&nofb=1") center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 70%;
+  height: 100vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.right h2 {
+  font-size: 32px;
+}
+
+.right a {
+  margin-top: 24px;
+  text-transform: uppercase;
+}

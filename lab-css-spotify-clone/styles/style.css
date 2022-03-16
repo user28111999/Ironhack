@@ -1,0 +1,151 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    width: 98%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    color: #1A1A1A;
+    background: #FFF;
+}
+
+#spotify img {
+    height: 8vh;
+    margin-left: 8px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+li + li {
+    margin: 0 12px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../images/landing.jpg");
+    background-size: 210vh;    
+    color: #FFF;
+    padding-top: 10vh;
+    height: 90vh;
+}
+
+.landing h2 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.landing span {
+    font-size: 24px;
+}
+
+h2#million {
+    width: 18%;
+    border-bottom: 3px solid #00B172;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+
+.container-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-item  {
+    height: 51vh;
+}
+
+.container-item h2 {
+    border: 0;
+    color: #00B172;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-item img {
+    height: 15vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+
+.container-item span {
+    display: block;
+    text-align: center;
+    margin-bottom: 12vh;
+}
+
+.kanye-container {
+    width: 90%;
+    height: 110vh;
+    background: #00B172;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: #FFF;
+}
+
+.kanye-container img {
+    height: 100vh;
+    margin: auto;
+    margin-right: 4vh;
+    margin-top: 8vh;
+}
+
+#yeezy {
+    margin-bottom: 12vh;
+    font-size: 32px;
+    border-bottom: 3px solid white;
+    padding-bottom: 4px;
+}
+
+.kanye-west--item {
+    margin: 8vh 0;  
+}
+
+.kanye-text--item h2 {
+    font-size: 28px;
+}
+
+.kanye-text--item span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10vh;
+}

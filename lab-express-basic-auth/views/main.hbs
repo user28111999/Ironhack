@@ -1,0 +1,10 @@
+{{#if userInSession}}
+    <h1>Hello {{userInSession.username}}</h1>
+    <img 
+        src="images/snapchat.jpg"
+        alt="Gary"
+    />
+    <a href="/">Go back to the homepage</a>
+{{else}}
+    <p>Still no logged in user, sorry!</p>
+{{/if}}
